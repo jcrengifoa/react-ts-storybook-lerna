@@ -1,8 +1,8 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Page, PageProps } from './Page';
-import * as HeaderStories from './Header.stories';
+import Page, { PageProps } from '../../packages/Page';
+import * as HeaderStories from '../Header/Header.stories';
 
 export default {
   title: 'Example/Page',
